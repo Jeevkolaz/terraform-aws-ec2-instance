@@ -13,7 +13,7 @@ locals {
 
   user_data = <<-EOT
     #!/bin/bash
-    echo "Hello Terraform!"
+    echo "This is Terraform!"
   EOT
 
   tags = {
